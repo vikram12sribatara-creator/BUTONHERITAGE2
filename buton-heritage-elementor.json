@@ -1,0 +1,70 @@
+{
+  "title": "Buton Heritage Landing Page",
+  "type": "page",
+  "content": [
+    {
+      "id": "hero",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic"
+      },
+      "elements": [
+        {
+          "id": "hero-inner",
+          "elType": "column",
+          "elements": [
+            {
+              "id": "hero-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Merangkai Identitas, Melestarikan Budaya"
+              }
+            },
+            {
+              "id": "hero-text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Buton Heritage hadir untuk menjaga warisan leluhur, menyambungkan masa lalu dengan generasi masa kini."
+              }
+            },
+            {
+              "id": "hero-btn",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Lihat Program",
+                "link": {
+                  "url": "#program"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "about",
+      "elType": "section",
+      "elements": [
+        {
+          "id": "about-text",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Tentang Kami"
+          }
+        },
+        {
+          "id": "about-desc",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "Buton Heritage adalah komunitas budaya yang berfokus pada pelestarian tradisi Buton melalui riset, diskusi, dan kegiatan kreatif."
+          }
+        }
+      ]
+    }
+  ]
+}
